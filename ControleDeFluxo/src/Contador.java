@@ -27,7 +27,7 @@ public class Contador {
     static void contar(int parametroUm, int parametroDois) throws ParametrosInvalidosException{
         if (parametroUm < parametroDois){
             int contagem = parametroDois - parametroUm;
-            for(int i=0; i <= contagem; i++){
+            for(int i=1; i < contagem; i++){
                 System.out.println(parametroUm + i);
             }
         }
